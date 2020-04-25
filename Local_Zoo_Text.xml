@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<GameData>
+  <LocalizedText>
+    <!-- The name of the building. -->
+    <Row Tag="LOC_BUILDING_LOCAL_ZOO_NAME" Language="en_US">
+      <Text>Local Zoo</Text>
+    </Row>
+
+    <!-- The description of the building, used in various places. -->
+    <Row Tag="LOC_BUILDING_LOCAL_ZOO_DESCRIPTION" Language="en_US">
+      <Text>Alternative to Zoo, Local Zoo provides high amenity but has no range effect.</Text>
+    </Row>
+
+    <Row Tag="LOC_BUILDING_LOCAL_STADIUM_NAME" Language="en_US">
+      <Text>Local Stadium</Text>
+    </Row>
+
+    <!-- The description of the building, used in various places. -->
+    <Row Tag="LOC_BUILDING_LOCAL_STADIUM_DESCRIPTION" Language="en_US">
+      <Text>Alternative to Stadium, Local Stadium provides high amenity but has no range effect.</Text>
+    </Row>
+
+    <!-- Pedia text (historical context) about the new building. -->
+    <Row Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_LOCAL_STADIUM_CHAPTER_HISTORY_PARA_1" Language="en_US">
+      <Text>A long long time ago in a place not so far, a great designer by the name of Sid Meier founded a game studio...</Text>
+    </Row>
+
+    <Row Tag="LOC_BUILDING_LOCAL_ZOO_NAME" Language="zh_Hans_CN">
+      <Text>本地动物园</Text>
+    </Row>
+
+    <!-- The description of the building, used in various places. -->
+<!--    <Row Tag="LOC_BUILDING_LOCAL_ZOO_DESCRIPTION" Language="zh_Hans_CN">-->
+<!--      <Text>本地动物园提供高宜居度，但没有范围加成。适合精铺玩家。</Text>-->
+<!--    </Row>-->
+
+
+    <Row Tag="LOC_BUILDING_LOCAL_STADIUM_NAME" Language="zh_Hans_CN">
+      <Text>本地体育场</Text>
+    </Row>
+
+    <!-- The description of the building, used in various places. -->
+    <Row Tag="LOC_BUILDING_LOCAL_STADIUM_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>Alternative to Stadium, Local Stadium provides high amenity but has no range effect.</Text>
+    </Row>
+
+    <!-- Pedia text (historical context) about the new building. -->
+    <Row Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_LOCAL_STADIUM_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+      <Text>A long long time ago in a place not so far, a great designer by the name of Sid Meier founded a game studio...</Text>
+    </Row>
+  </LocalizedText>
+</GameData>

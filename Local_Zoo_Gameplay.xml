@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<GameData
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="../AI Play Tall/Civ6Lua/Gameplay.xsd">
+  <!-- Almost all gameplay types should first be added to the types table. -->
+  <!-- This serves as a central way to reference any type -->
+  <Types>
+    <Row Type="BUILDING_LOCAL_ZOO" Kind="KIND_BUILDING"/>
+    <Row Type="BUILDING_LOCAL_STADIUM" Kind="KIND_BUILDING"/>
+  </Types>
+
+  <!-- Define the building here. For examples of additional properties and values, look at Buildings.xml in /Base/Assets/Gameplay/Data/-->
+  <Buildings>
+    <Row BuildingType="BUILDING_LOCAL_ZOO" Name="LOC_BUILDING_LOCAL_ZOO_NAME" PrereqCivic="CIVIC_NATURAL_HISTORY" PrereqDistrict="DISTRICT_ENTERTAINMENT_COMPLEX" PurchaseYield="YIELD_GOLD" Cost="445" AdvisorType="ADVISOR_GENERIC" Maintenance="1" Entertainment="2"/>
+    <Row BuildingType="BUILDING_LOCAL_STADIUM" Name="LOC_BUILDING_LOCAL_STADIUM_NAME" PrereqCivic="CIVIC_PROFESSIONAL_SPORTS" PrereqDistrict="DISTRICT_ENTERTAINMENT_COMPLEX" PurchaseYield="YIELD_GOLD" Cost="660" AdvisorType="ADVISOR_GENERIC" Maintenance="3" Entertainment="5"/>
+  </Buildings>
+  <BuildingPrereqs>
+    <Row Building="BUILDING_LOCAL_ZOO" PrereqBuilding="BUILDING_ARENA"/>
+    <Row Building="BUILDING_LOCAL_STADIUM" PrereqBuilding="BUILDING_LOCAL_ZOO"/>
+  </BuildingPrereqs>
+  <MutuallyExclusiveBuildings>
+    <Row Building="BUILDING_LOCAL_ZOO" MutuallyExclusiveBuilding="BUILDING_ZOO"/>
+    <Row Building="BUILDING_ZOO" MutuallyExclusiveBuilding="BUILDING_LOCAL_ZOO"/>
+    <Row Building="BUILDING_LOCAL_STADIUM" MutuallyExclusiveBuilding="BUILDING_STADIUM"/>
+    <Row Building="BUILDING_STADIUM" MutuallyExclusiveBuilding="BUILDING_LOCAL_STADIUM"/>
+  </MutuallyExclusiveBuildings>
+</GameData>
