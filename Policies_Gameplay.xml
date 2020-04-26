@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<GameData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		  xsi:noNamespaceSchemaLocation="../Civ6schema/xml/Gameplay.xsd">
+	<Modifiers>
+		<Row>
+			<ModifierId>SPORTSMEDIA_STADIUMENTERTAINMENT</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_POLICY_AMENITY</ModifierType>
+			<SubjectRequirementSetId>CITY_HAS_STADIUM_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<!-- SPORTSMEDIA_STADIUMENTERTAINMENT ADJUST_POLICY_AMENITY by 1-->
+			<ModifierId>SPORTSMEDIA_STADIUMENTERTAINMENT</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+	</ModifierArguments>
+
+	<RequirementSets>
+		<Row>
+			<RequirementSetId>CITY_HAS_STADIUM_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+	</RequirementSets>
+	<RequirementSetRequirements>
+		<Row>
+			<RequirementSetId>CITY_HAS_STADIUM_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_CITY_HAS_STADIUM</RequirementId>
+		</Row>
+	</RequirementSetRequirements>
+	<Requirements>
+		<Row>
+			<RequirementId>REQUIRES_CITY_HAS_STADIUM</RequirementId>
+			<RequirementType>REQUIREMENT_CITY_HAS_BUILDING</RequirementType>
+		</Row>
+	</Requirements>
+	<RequirementArguments>
+		<Row>
+			<RequirementId>REQUIRES_CITY_HAS_STADIUM</RequirementId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_STADIUM</Value>
+		</Row>
+	</RequirementArguments>
+
+	<PolicyModifiers>
+		<Row>
+			<PolicyType>POLICY_SPORTS_MEDIA</PolicyType>
+			<ModifierId>SPORTSMEDIA_LOCALSTADIUMENTERTAINMENT</ModifierId>
+		</Row>
+	</PolicyModifiers>
+</GameData>

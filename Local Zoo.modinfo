@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Mod id="414fcd21-f6e7-4ba2-8b35-fd9df38b47ee" version="1"
      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-     xsi:noNamespaceSchemaLocation="../AI Play Tall/Civ6Lua/Civ6ModInfoSchema.xsd">
+     xsi:noNamespaceSchemaLocation="../Civ6schema/xml/ModInfo.xsd">
   <Properties>
     <Name>Local Zoo</Name>
     <Description>Zoo without range effect but gives higher amenity</Description>
@@ -14,6 +14,7 @@
   <InGameActions>
     <UpdateDatabase id="Gameplay">
       <File>Local_Zoo_Gameplay.xml</File>
+      <File>Policies_Gameplay.sql</File>
     </UpdateDatabase>
     <UpdateIcons id="Icons">
       <File>Local_Zoo_Icons.xml</File>
@@ -24,6 +25,7 @@
   </InGameActions>
   <Files>
     <File>Local_Zoo_Gameplay.xml</File>
+    <File>Policies_Gameplay.sql</File>
     <File>Local_Zoo_Icons.xml</File>
     <File>Local_Zoo_Text.xml</File>
   </Files>
