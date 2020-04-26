@@ -21,6 +21,7 @@
     </UpdateIcons>
     <UpdateText id="Text">
       <File>Local_Zoo_Text.xml</File>
+      <File>Civics_Text.xml</File>
     </UpdateText>
   </InGameActions>
   <Files>
@@ -28,5 +29,6 @@
     <File>Policies_Gameplay.sql</File>
     <File>Local_Zoo_Icons.xml</File>
     <File>Local_Zoo_Text.xml</File>
+    <File>Civics_Text.xml</File>
   </Files>
 </Mod>

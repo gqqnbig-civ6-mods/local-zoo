@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<GameData>
+	<LocalizedText>
+		<Replace Tag="LOC_POLICY_SPORTS_MEDIA_DESCRIPTION" Language="en_US">
+			<Text>+100% Theater Square district adjacency bonuses, and Stadiums and {LOC_BUILDING_LOCAL_STADIUM_NAME} generate +1 [ICON_Amenities] Amenity.</Text>
+		</Replace>
+
+		<Replace Tag="LOC_POLICY_SPORTS_MEDIA_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>+100%剧院广场区相邻加成，体育场和{LOC_BUILDING_LOCAL_STADIUM_NAME}+1 [ICON_Amenities] 宜居度。</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>
