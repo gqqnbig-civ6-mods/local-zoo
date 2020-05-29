@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <GameData
         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xsi:noNamespaceSchemaLocation="../AI Play Tall/Civ6Lua/Gameplay.xsd">
+        xsi:noNamespaceSchemaLocation="../Civ6schema/xml/Gameplay.xsd">
   <!-- Almost all gameplay types should first be added to the types table. -->
   <!-- This serves as a central way to reference any type -->
   <Types>
